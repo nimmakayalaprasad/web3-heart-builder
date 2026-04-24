@@ -13,7 +13,27 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-aurora': 'var(--gradient-aurora)',
+        'gradient-text': 'var(--gradient-text)',
+        'gradient-glass': 'var(--gradient-glass)',
+      },
+      boxShadow: {
+        glow: 'var(--shadow-glow)',
+        'glow-purple': 'var(--shadow-glow-purple)',
+        card: 'var(--shadow-card)',
+      },
       colors: {
+        aurora: {
+          green: 'hsl(var(--aurora-green))',
+          purple: 'hsl(var(--aurora-purple))',
+          cyan: 'hsl(var(--aurora-cyan))',
+          deep: 'hsl(var(--aurora-deep))',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
